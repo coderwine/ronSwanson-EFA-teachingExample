@@ -1,11 +1,4 @@
-let baseURL = 'https://ron-swanson-quotes.herokuapp.com/v2/quotes';
-
-//? Let's set our global information.  These will be variable that we want our functions to have access to.  But how can we dip into it exactly?  Let's look what our console can do for us.
-console.log(document);
-console.log(document.childNodes);
-console.log(document.childNodes[1].childNodes);
-//? These are just means of us using the console to help us navigate the object of our HTML.  We can utilize methods to help us target various aspects just like CSS.  We will utilize querySelector and getElementbyId to target our containers within our HTML.  
-
+let baseURL = 'http://ron-swanson-quotes.herokuapp.com/v2/quotes';
 
 //! Global elements to target
 let quoteContainer = document.querySelector('.quoteContainer');
