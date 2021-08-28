@@ -1,0 +1,52 @@
+/* GENERAL SETUP */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    background-color: tan;
+}
+
+/* LOGO  */
+#ronLogo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: auto;
+}
+
+/* QUOTE */
+
+.quoteContainer {
+    width: 80vw;
+    text-align: center;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+/* FONTS */
+@font-face {
+    font-family: pinewood;
+    src: url('./assets/PINEWOOD.TTF');
+}
+
+@font-face {
+    font-family: billionDreams;
+    src: url('./assets/BillionDreams_PERSONAL.ttf');
+}
+
+/* 
+! ADD style fonts within JS
+within quoteBy & quote
+*/
