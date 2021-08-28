@@ -1,4 +1,4 @@
-let baseURL = 'http://ron-swanson-quotes.herokuapp.com/v2/quotes';
+let baseURL = 'https://ron-swanson-quotes.herokuapp.com/v2/quotes';
 
 //? Let's set our global information.  These will be variable that we want our functions to have access to.  But how can we dip into it exactly?  Let's look what our console can do for us.
 console.log(document);
